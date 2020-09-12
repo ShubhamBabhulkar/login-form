@@ -1,0 +1,89 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+body{
+    background-color: #fafafa;
+    color: #656565;
+    font-size: 15px;
+    line-height: 30px;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+a {
+    color: #47A1F7;
+    text-decoration: none;
+    background-color: transparent;
+}
+.line-height-13px {
+    line-height: 13px;
+}
+.mat-card {
+    background: white;
+    font-family: auto;
+}
+button:focus{
+    outline: none !important;
+}
+mat-label:focus{
+    outline: none !important;
+}
+mat-icon:focus{
+    outline: none !important;
+}
+span:focus{
+    outline: none !important;
+}
+.wrapped-body{
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 90vh;
+}
+.height-7vh{
+    height: 7vh;
+}
+.color-black{
+    color: black !important;
+}
+.display-flex-end{
+    justify-content: flex-end;
+    display: flex;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.color-green{
+    color: #007900;
+}
+.background-color-green{
+    background-color: #0abe0a !important;
+}
+.min-height-60vh{
+    min-height: 60vh;
+}
+.margin-bottom-0-5rem {
+    margin-top: 0.5rem !important;
+}
+.font-size-13px{
+    font-size: 13px;
+}
+.font-size-11px{
+    font-size: 11px;
+}
+.font-weight-700{
+    font-weight: 700;
+}
+.margin-left-2rem{
+    margin-left: 2rem !important;
+}
+.text-align-center{
+    text-align: center;
+}
+.padding-right-3rem{
+    padding-right: 3rem !important;
+}
+.width-8rem{
+    width:8rem;
+}
