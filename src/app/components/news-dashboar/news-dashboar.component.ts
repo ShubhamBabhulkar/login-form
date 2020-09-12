@@ -41,7 +41,7 @@ export class NewsDashboarComponent implements OnInit {
       localStorage.setItem('user', userData.email);
       this.router.navigateByUrl('/signin');
     } else {
-      this.errorMessage = 'Please check your emial id and Password';
+      this.errorMessage = 'Please check your email id and Password';
       console.log(this.errorMessage);
     }
   }
